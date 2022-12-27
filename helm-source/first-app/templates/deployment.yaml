@@ -50,8 +50,6 @@ spec:
             mountPath: "/var/www/html"
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-      {{- with .Values.nodeSelector }}
-   
       volumes:
       - name: "persistent-storage"
         persistentVolumeClaim:
