@@ -3,7 +3,27 @@ entries:
   first-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-27T16:49:27.491318761Z"
+    created: "2022-12-27T17:09:23.819895706Z"
+    description: A Helm chart for DEMO
+    digest: df5506a99473226f75ab01705e5d18622098bba86538fbc5b73947464de64487
+    name: first-app
+    type: application
+    urls:
+    - https://andreibaitau.github.io/helm-repository/helm-releases/first-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-27T17:09:23.818942267Z"
+    description: A Helm chart for DEMO
+    digest: caf53bf8df79381da3d43c12d092c7c7fd37acff5d2dc78cb03ad1ad34ecb2e7
+    name: first-app
+    type: application
+    urls:
+    - https://andreibaitau.github.io/helm-repository/first-app-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-27T17:09:23.819426932Z"
     description: A Helm chart for DEMO
     digest: 8ad9fd8e3b5dc7644ac1a8674f66c117dd11bb1366b90ef4295e3542fe850603
     name: first-app
@@ -11,4 +31,4 @@ entries:
     urls:
     - https://andreibaitau.github.io/helm-repository/helm-releases/first-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-27T16:49:27.490767786Z"
+generated: "2022-12-27T17:09:23.81827883Z"
